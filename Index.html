@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResumeFrame</title>
+    <style>
+
+        .container {
+            /* Splitting width & height in 3:4 ratio */
+            width : 51vw; 
+            height: 68vw;
+            border: 5px double rgb(79, 63, 34);
+            display: flex;
+            background-color:burlywood;
+        }
+
+        /* Splitting left and right frame in 30:70 ratio usinf flex-basis */
+        .left-frame {
+            flex-basis: 30%;
+            height: 100%;
+        }
+
+        .right-frame {
+            flex-basis: 70%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body style="display: flex; justify-content: center;">
+    <div class="container">
+        <!-- Left and Right Frames created -->
+        <iframe src="ResumeLeft.html"  name="left" class="left-frame"></iframe>
+        <iframe src="ResumeRight.html" name="right" class="right-frame"></iframe>
+    </div>
+</body>
+
+</html>
+
+
+       
+
+
